@@ -13,7 +13,7 @@
         password: "dckr_pat_va5HQ0CB4FHJxMMosw53EFFvgnA"
 
     - name: Build and Push Docker image
-      community.docker.docker_image:
+      community.docker.docker_image: 
         name: "loki2001/petstore"
         tag: latest
         build:
